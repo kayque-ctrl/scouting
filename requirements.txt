@@ -1,0 +1,11 @@
+# Dados
+pandas
+pyarrow
+
+# Download das bases do Kaggle (six: dependência que falta no pacote kaggle 2.2.5)
+kaggle
+six
+
+# Notebooks
+ipykernel
+nbconvert

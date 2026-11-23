@@ -13,6 +13,9 @@ venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+*.egg-info/
+.coverage
+.pytest_cache/
 
 # Doc interno de planejamento (fica só local)
 Projeto de Portf*lio*.md
