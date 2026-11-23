@@ -1,0 +1,18 @@
+# Segredos (token do Kaggle, chave do LLM)
+.env
+
+# Versão antiga do doc em PDF (fica só local)
+*.pdf
+
+# Dados baixados do Kaggle: grandes, cada pessoa baixa os seus
+dados/
+
+# Python e ambiente virtual
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Doc interno de planejamento (fica só local)
+Projeto de Portf*lio*.md
