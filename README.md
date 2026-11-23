@@ -71,7 +71,7 @@ pip install kaggle
 kaggle datasets download hubertsidorowicz/football-players-stats-2024-2025 \
   -f players_data-2024_2025.csv -p dados/brutos/fbref
 
-for f in players.csv player_valuations.csv appearances.csv; do
+for f in players.csv player_valuations.csv appearances.csv games.csv; do
   kaggle datasets download davidcariboo/player-scores -f $f -p dados/brutos/transfermarkt
 done
 ```
